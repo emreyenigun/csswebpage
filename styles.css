@@ -16,12 +16,9 @@ body {
     display: flex;
     gap: 700px;
 }
-
-
 img {
     padding: 12px;
 }
-
 .main-tab{
     font-size: 48px;
     font-weight: 900;
@@ -32,9 +29,6 @@ img {
     flex: 1;
     justify-content: center;
 }
-/*.first-container{
-    g
-}*/
 .subtext1 {
     font-size: 20px;
     color: gray;
@@ -48,7 +42,6 @@ ul {
     list-style: none;
     display: flex;
     gap: 10px;
-    
 }
 a {
     text-decoration: none;
@@ -62,7 +55,7 @@ button {
     color: white;
     font-size: medium;
     border-radius: 15px;
-
+    border-color: white;
 }
 .second-header {
     text-align: center;
@@ -78,6 +71,8 @@ button {
 .second {
     display: flex;
     flex-direction: column;
+    padding: 50px;
+    background-color: #4ECDC4;
 }
 .container2{
     display: flex;
@@ -87,8 +82,76 @@ button {
     display: flex;
     gap: 58px;
     justify-content: center;
-
 }
 .text2{
     width: 200px;
+}
+.third {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+}
+.writer {
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.third-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+.forth {
+    padding: 160px;
+    background-color: #FF6B6B;
+}
+.fourth-container {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex: 1;
+    max-height: 70px;
+}
+.header {
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+    display: flex;
+    order: -2;
+}
+.subtext4 {
+    color: white;
+    font-weight: 400;
+    order: -1;
+}
+.last-button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}   
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.footer-child{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+
 }
